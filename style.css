@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(128, 131, 134);
+}
+
+.digitalClock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+   width: 350px;
+   height: 180px;
+  background: linear-gradient(to bottom , rgb(27, 37, 56) , black);
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% , -50%);
+   box-shadow: rgb(0,0,0,0.7) 5px 10px 50px ,rgb(0,0,0,0.7) -5px 0px 250px;
+   
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45px;
+    color: white;
+    font-size: 25px;
+}
+
+#hours{
+    font-size: 85px;
+    background: -webkit-linear-gradient(90deg, rgb(13, 13, 112) , rgb(193, 193, 204));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 600;
+}
+
+#dots{
+    font-size:  70px;
+    font-weight: 600;
+   
+}
+
+#minutes{
+    font-size: 65px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(90deg, rgb(150, 24, 155) , rgb(226, 235, 240));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.right-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-down{
+    margin-top: 100px;
+    transform: translateX(-72px);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#period{
+    color: rgb(223, 113, 35);
+}
